@@ -7,12 +7,16 @@
 //
 
 #include <iostream>
+#include "MainTest.h"
+#include "stringsetTest.h"
 
 int main(int argc, const char * argv[])
 {
-
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    TestMain();
+    
+    TestStringSet();
+    
     return 0;
 }
 

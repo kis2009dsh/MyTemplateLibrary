@@ -28,6 +28,17 @@
 		2194C63D182B93AE0009C902 /* MTL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MTL; sourceTree = BUILT_PRODUCTS_DIR; };
 		2194C640182B93AE0009C902 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2194C642182B93AE0009C902 /* MTL.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MTL.1; sourceTree = "<group>"; };
+		2194C64A182B93FA0009C902 /* algo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = algo.h; sourceTree = "<group>"; };
+		2194C64C182B93FA0009C902 /* size_balance_tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = size_balance_tree.h; sourceTree = "<group>"; };
+		2194C64D182B93FA0009C902 /* treap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = treap.h; sourceTree = "<group>"; };
+		2194C64E182B93FA0009C902 /* delegater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = delegater.h; sourceTree = "<group>"; };
+		2194C64F182B93FA0009C902 /* map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = map.h; sourceTree = "<group>"; };
+		2194C650182B93FA0009C902 /* set.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = set.h; sourceTree = "<group>"; };
+		2194C651182B93FA0009C902 /* stringset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringset.h; sourceTree = "<group>"; };
+		2194C652182B93FA0009C902 /* timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
+		2194C653182B93FA0009C902 /* utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utility.h; sourceTree = "<group>"; };
+		2194C65C182B96810009C902 /* MainTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTest.h; sourceTree = "<group>"; };
+		2194C65D182B96810009C902 /* stringsetTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringsetTest.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +71,45 @@
 		2194C63F182B93AE0009C902 /* MTL */ = {
 			isa = PBXGroup;
 			children = (
+				2194C649182B93FA0009C902 /* include */,
+				2194C654182B93FA0009C902 /* test */,
 				2194C640182B93AE0009C902 /* main.cpp */,
 				2194C642182B93AE0009C902 /* MTL.1 */,
 			);
 			path = MTL;
+			sourceTree = "<group>";
+		};
+		2194C649182B93FA0009C902 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				2194C64A182B93FA0009C902 /* algo.h */,
+				2194C64B182B93FA0009C902 /* bits */,
+				2194C64E182B93FA0009C902 /* delegater.h */,
+				2194C64F182B93FA0009C902 /* map.h */,
+				2194C650182B93FA0009C902 /* set.h */,
+				2194C651182B93FA0009C902 /* stringset.h */,
+				2194C652182B93FA0009C902 /* timer.h */,
+				2194C653182B93FA0009C902 /* utility.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		2194C64B182B93FA0009C902 /* bits */ = {
+			isa = PBXGroup;
+			children = (
+				2194C64C182B93FA0009C902 /* size_balance_tree.h */,
+				2194C64D182B93FA0009C902 /* treap.h */,
+			);
+			path = bits;
+			sourceTree = "<group>";
+		};
+		2194C654182B93FA0009C902 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				2194C65C182B96810009C902 /* MainTest.h */,
+				2194C65D182B96810009C902 /* stringsetTest.h */,
+			);
+			path = test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
